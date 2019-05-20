@@ -1,18 +1,14 @@
 package testCases;
 
-import java.io.File;
 import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoField;
 import java.util.Properties;
 
-import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -73,19 +69,5 @@ public class HybridExecuteTest {
     	}
      	System.out.println("");
      	  return object;	 
-	}
-
-	public void takeScreenshot(){
-		TakesScreenshot scrShot =((TakesScreenshot)webdriver);
-		File SrcFile=scrShot.getScreenshotAs(OutputType.FILE);
-		LocalDateTime timePoint = LocalDateTime.now();
-		String name = System.getProperty("logPath")  + testName + "_" + timePoint.get(ChronoField.YEAR_OF_ERA) + "-" + timePoint.getMonth() + "-" + timePoint.getDayOfMonth() + "_"+ timePoint.getHour() + "-" + timePoint.getMinute() + "-" + timePoint.getSecond() + ".png";
-		File DestFile=new File(name);
-		log.info("Screenshot name is " + name);
-		try {
-			FileUtils.copyFile(SrcFile, DestFile);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
 	}
 }
