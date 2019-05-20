@@ -1,0 +1,84 @@
+2019-05-21 01:22:15,907 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:25,442 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:25,442 INFO UIOperation [main] Go to URL: 'http://dev-shire-test.pantheonsite.io/user/login'
+2019-05-21 01:22:26,659 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:26,659 INFO UIOperation [main] Waiting for page title with 'Log in' text for '2' seconds
+2019-05-21 01:22:26,722 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:26,722 INFO UIOperation [main] Set text 'sf_tanya' into 'username' with path: '//div[label[text()='Username']]/input[@name='name']'
+2019-05-21 01:22:26,768 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:26,768 INFO UIOperation [main] Set text '1991SpaceFlash' into 'password' with path: '//div[label[text()='Password']]/input[@name='pass']'
+2019-05-21 01:22:26,815 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:26,815 INFO UIOperation [main] Click on 'loginButton' with path: '//input[@name='op' and @value='Log in']'
+2019-05-21 01:22:28,630 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:28,630 INFO UIOperation [main] Waiting for page title with 'sf_tanya' text for '2' seconds
+2019-05-21 01:22:28,660 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:28,660 INFO UIOperation [main] Click on 'contentMenuLnk' with path: '//div[@id='toolbar-administration']//a[text()='Content']'
+2019-05-21 01:22:30,012 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:30,012 INFO UIOperation [main] Waiting for page title with 'Content' text for '2' seconds
+2019-05-21 01:22:30,041 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:30,041 INFO UIOperation [main] Click on 'addContentBtn' with path: '//main//a[text()='Add content']'
+2019-05-21 01:22:31,127 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:31,128 INFO UIOperation [main] Waiting for page title with 'Add content' text for '2' seconds
+2019-05-21 01:22:31,152 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:31,152 INFO UIOperation [main] Click on 'basicPageLnk' with path: '//ul/li/a/span[text()='Basic page']'
+2019-05-21 01:22:32,687 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:32,688 INFO UIOperation [main] Waiting for page title with 'Create Basic page' text for '5' seconds
+2019-05-21 01:22:32,828 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:32,828 INFO UIOperation [main] Set text 'Hybrid Hobbit Page' into 'titleInput' with path: '//div[label[contains(text(),'Title')]]/input[contains(@id,'edit-title')]'
+2019-05-21 01:22:32,922 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:32,923 INFO UIOperation [main] Click on 'sourceBtn' with path: '//a[@title='Source']'
+2019-05-21 01:22:33,172 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:33,172 INFO UIOperation [main] Set text 'Hybrid hobbit has ability to become unvisible' into 'contentInput' with path: '//textarea[@class='cke_source cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']'
+2019-05-21 01:22:33,241 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:33,242 INFO UIOperation [main] Click on 'saveBtn' with path: '//input[@value='Save']'
+2019-05-21 01:22:35,390 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:35,391 INFO UIOperation [main] Waiting for page title with 'Hybrid Hobbit Page' text for '2' seconds
+2019-05-21 01:22:35,433 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:35,433 INFO UIOperation [main] Check text for 'infoMessage' with path: '//div[@role='contentinfo']'
+2019-05-21 01:22:35,467 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:35,467 INFO UIOperation [main] Click on 'contentMenuLnk' with path: '//div[@id='toolbar-administration']//a[text()='Content']'
+2019-05-21 01:22:36,191 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:36,192 INFO UIOperation [main] Click on 'contentMenuLnk' with path: '//div[@id='toolbar-administration']//a[text()='Content']'
+2019-05-21 01:22:37,479 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:37,479 INFO UIOperation [main] Waiting for page title with 'Content' text for '2' seconds
+2019-05-21 01:22:37,513 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:37,514 INFO UIOperation [main] Check if content 'Hybrid Hobbit Page' has STATUS: 'Published'
+2019-05-21 01:22:37,544 INFO Helpers [main] Check 2 string if equals:
+1st: 'Published'
+2nd: 'Published'
+2019-05-21 01:22:37,544 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:37,545 INFO UIOperation [main] Check if content 'Hybrid Hobbit Page' has TYPE: 'Basic page'
+2019-05-21 01:22:37,560 INFO Helpers [main] Check 2 string if equals:
+1st: 'Basic page'
+2nd: 'Basic page'
+2019-05-21 01:22:37,560 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:37,561 INFO UIOperation [main] End of test. Closing the browser.
+2019-05-21 01:22:39,810 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:48,987 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:48,987 INFO UIOperation [main] Go to URL: 'http://dev-shire-test.pantheonsite.io/user/login'
+2019-05-21 01:22:50,141 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:50,141 INFO UIOperation [main] Waiting for page title with 'Log in' text for '2' seconds
+2019-05-21 01:22:50,173 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:50,173 INFO UIOperation [main] Set text 'sf_tanya' into 'username' with path: '//div[label[text()='Username']]/input[@name='name']'
+2019-05-21 01:22:50,235 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:50,235 INFO UIOperation [main] Set text '1991SpaceFlash' into 'password' with path: '//div[label[text()='Password']]/input[@name='pass']'
+2019-05-21 01:22:50,297 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:50,297 INFO UIOperation [main] Click on 'loginButton' with path: '//input[@name='op' and @value='Log in']'
+2019-05-21 01:22:52,608 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:52,608 INFO UIOperation [main] Waiting for page title with 'sf_tanya' text for '2' seconds
+2019-05-21 01:22:52,629 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:52,629 INFO UIOperation [main] Click on 'contentMenuLnk' with path: '//div[@id='toolbar-administration']//a[text()='Content']'
+2019-05-21 01:22:54,144 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:54,145 INFO UIOperation [main] Waiting for page title with 'Content' text for '2' seconds
+2019-05-21 01:22:54,170 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:54,170 INFO UIOperation [main] Select a content item with 'Hybrid Hobbit Page' title
+2019-05-21 01:22:54,408 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:54,409 INFO UIOperation [main] Click on 'applyToSlctItemsBtn' with path: '//input[@id='edit-submit']'
+2019-05-21 01:22:55,766 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:55,768 INFO UIOperation [main] Waiting for page title with 'Are you sure you want to delete this content item?' text for '2' seconds
+2019-05-21 01:22:55,810 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:55,811 INFO UIOperation [main] Click on 'deleteBtn' with path: '//input[@id='edit-submit']'
+2019-05-21 01:22:57,491 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:57,492 INFO UIOperation [main] Check text for 'infoMessage' with path: '//div[@role='contentinfo']'
+2019-05-21 01:22:57,524 INFO HybridExecuteTest [main] HybridExecuteTest test started
+2019-05-21 01:22:57,524 INFO UIOperation [main] End of test. Closing the browser.
